@@ -1,5 +1,6 @@
 import { Badge } from "flowbite-react";
 import Header from "../mainPageComponents/Header.jsx";
+import Section from "../mainPageComponents/Sections.jsx";
 
 
 
@@ -7,10 +8,13 @@ export default function MainPage() {
     return (
         <div>
             <Header/>
-            <Badge color="gray" size="sm" className="h-16 w-[50%] my-4 ">
-                <img src="/Group 12.svg" alt="img" className="w-[48px] "/>
-                <p> مشاوره تلفنی </p>
-            </Badge>
+            <div className="grid grid-cols-2 gap-4 p-4 ]">
+                <Section imageSrc="/Group 12.svg" text="مشاوره تلفنی" />
+                <Section imageSrc="/Group 11.svg" text=" مشاوره متنی" />
+                <Section imageSrc="/Group 14.svg" text="تنظیم شکایت " />
+                <Section imageSrc="/Group 13.svg" text="تنظیم قرارداد  " />
+            </div>
+            
             <div className="flex m-4">
                 <span> دسته بندی </span>
                 <img src="/icon-wrapper.svg" alt="img"/>
