@@ -3,6 +3,8 @@ import Header from "../mainPageComponents/Header.jsx";
 import Section from "../mainPageComponents/Sections.jsx";
 import Category from "../mainPageComponents/Category.jsx";
 import CategorySection from "../mainPageComponents/CategorySection.jsx";
+import VakilSection from "../mainPageComponents/VakilSection.jsx";
+import Profile from "../mainPageComponents/Profile.jsx";
 
 
 
@@ -25,26 +27,11 @@ export default function MainPage() {
                 <CategorySection  text=" کیفری"  />
             </div>
           
-             <div className="flex m-4">
-                <span> دسته بندی </span>
-                <img src="/icon-wrapper.svg" alt="img"/>
-                <p> مشاهده همه </p>
-            </div>
+             <VakilSection/>
+             <Profile/>
         
             
-             <div color="gray" className="  border">
-                <div className="flex">
-                    <p> نیما سلیمانی </p>
-                    <span> ۴.۷(۲۳۰) </span>
-                    <img src="/Vector.svg " alt="img"/>
-                </div>
-                <img src="/_Avatar (1).svg" alt="img" className="w-[48px] "/>
-                <p> وکیل پایه یک دادگستری </p>
-                <div className="">
-                    <span> شروع از ۲۰ دقیه </span>
-                    <span> ۱۰۰,۰۰۰ تومان </span>
-                </div>
-            </div>
+             
             
 
 
