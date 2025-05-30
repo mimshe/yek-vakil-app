@@ -1,6 +1,8 @@
-import { Badge } from "flowbite-react";
+
 import Header from "../mainPageComponents/Header.jsx";
 import Section from "../mainPageComponents/Sections.jsx";
+import Category from "../mainPageComponents/Category.jsx";
+import CategorySection from "../mainPageComponents/CategorySection.jsx";
 
 
 
@@ -15,15 +17,14 @@ export default function MainPage() {
                 <Section imageSrc="/Group 13.svg" text="تنظیم قرارداد  " />
             </div>
             
-            <div className="flex m-4">
-                <span> دسته بندی </span>
-                <img src="/icon-wrapper.svg" alt="img"/>
-                <p> مشاهده همه </p>
+            <Category/>
+            <div className="flex  gap-3">
+                <CategorySection  text=" خانواده"  />
+                <CategorySection  text=" ملکی"  />
+                <CategorySection  text=" مالیات"  />
+                <CategorySection  text=" کیفری"  />
             </div>
-            <Badge color="gray" size="sm" className="h-[52px] w-[82px] ">
-               
-                <p> خانواده  </p>
-            </Badge>
+          
              <div className="flex m-4">
                 <span> دسته بندی </span>
                 <img src="/icon-wrapper.svg" alt="img"/>
