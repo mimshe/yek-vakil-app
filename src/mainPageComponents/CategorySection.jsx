@@ -3,8 +3,8 @@ import { Kbd } from "flowbite-react";
 export default function CategorySection({text}){
     return(
      <>
-         <div className="w-[52px] h-[52px]  flex items-center justify-center ">
-             <Kbd className=" "> {text} </Kbd>
+         <div className="flex gap-1 ">
+             <Kbd className="w-[82px] h-[52px] rounded-full flex items-center justify-center border"> {text} </Kbd>
          </div>
      </>
     )
