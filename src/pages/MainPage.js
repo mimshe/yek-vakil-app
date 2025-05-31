@@ -5,7 +5,10 @@ import Category from "../mainPageComponents/Category.jsx";
 import CategorySection from "../mainPageComponents/CategorySection.jsx";
 import VakilSection from "../mainPageComponents/VakilSection.jsx";
 import Profile from "../mainPageComponents/Profile.jsx";
-
+import Footer from "../mainPageComponents/Footer.jsx";
+import HomeSvg from "../assets/svg/HomeSvg.js";
+import RequestSvg from "../assets/svg/RequestsSvg.js";
+import ProfileSvg from "../assets/svg/ProfileSvg.js"
 
 
 export default function MainPage() {
@@ -29,6 +32,13 @@ export default function MainPage() {
           
              <VakilSection/>
              <Profile/>
+            < div className="flex mt-9 ">
+                <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
+                <Footer  imageSrc={<RequestSvg/>} text="مشاوره تلفنی"/>
+                <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
+             </div>
+
+             
         
             
              
