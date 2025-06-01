@@ -32,7 +32,7 @@ export default function MainPage() {
           
              <VakilSection/>
              <Profile/>
-            < div className="flex mt-9 ">
+            < div className="flex mt-9 border border-gray-100">
                 <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
                 <Footer  imageSrc={<RequestSvg/>} text="مشاوره تلفنی" imgSrc={"/Icon (1).svg"}/>
                 <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>

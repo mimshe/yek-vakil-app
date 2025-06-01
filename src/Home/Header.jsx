@@ -31,9 +31,9 @@ export default function Home(){
                         <CategorySection  text=" کیفری"  />
                     </div>
         <VakilSection/>
-         < div className="flex mt-9 ">
+         < div className="flex mt-9 border border-gray-100">
                         <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
-                        <Footer  imageSrc={<img src="/Icon (1).svg" alt="icon"/>} text="مشاوره تلفنی"  />
+                        <Footer  imageSrc={<img src="/Icon (1).svg" alt="icon"/>} text="مشاوره تلفنی" className=" mx-auto" />
                         <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
          </div>
 
