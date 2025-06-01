@@ -15,7 +15,7 @@ export default function MainPage() {
     return (
         <div>
             <Header/>
-            <div className="grid grid-cols-2 gap-4 p-4 ]">
+            <div className="grid grid-cols-2 gap-4 p-4">
                 <Section imageSrc="/Group 12.svg" text="مشاوره تلفنی" />
                 <Section imageSrc="/Group 11.svg" text=" مشاوره متنی" />
                 <Section imageSrc="/Group 14.svg" text="تنظیم شکایت " />
