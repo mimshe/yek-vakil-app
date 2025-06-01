@@ -6,7 +6,6 @@ import Profile from "../mainPageComponents/Profile"
 import Sections from "../mainPageComponents/Sections"
 import VakilSection from "../mainPageComponents/VakilSection"
 import HomeSvg from "../assets/svg/HomeSvg"
-import RequestSvg from "../assets/svg/RequestsSvg"
 import ProfileSvg from "../assets/svg/ProfileSvg"
 
 
@@ -34,7 +33,7 @@ export default function Home(){
         <VakilSection/>
          < div className="flex mt-9 ">
                         <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
-                        <Footer  imageSrc={<RequestSvg/>} text="مشاوره تلفنی"/>
+                        <Footer  imageSrc={<img src="/Icon (1).svg" alt="icon"/>} text="مشاوره تلفنی"  />
                         <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
          </div>
 

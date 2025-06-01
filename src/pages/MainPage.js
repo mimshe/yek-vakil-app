@@ -34,7 +34,7 @@ export default function MainPage() {
              <Profile/>
             < div className="flex mt-9 ">
                 <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
-                <Footer  imageSrc={<RequestSvg/>} text="مشاوره تلفنی"/>
+                <Footer  imageSrc={<RequestSvg/>} text="مشاوره تلفنی" imgSrc={"/Icon (1).svg"}/>
                 <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
              </div>
 
