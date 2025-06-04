@@ -1,14 +1,14 @@
-import Category from "../mainPageComponents/Category"
-import CategorySection from "../mainPageComponents/CategorySection"
-import Footer from "../mainPageComponents/Footer"
-import HeaderForMainPage from "../mainPageComponents/Header"
-import Sections from "../mainPageComponents/Sections"
-import VakilSection from "../mainPageComponents/VakilSection"
-import HomeSvg from "../assets/svg/HomeSvg"
-import ProfileSvg from "../assets/svg/ProfileSvg"
+import Category from "../mainPageComponents/Category.jsx"
+import CategorySection from "../mainPageComponents/CategorySection.jsx"
+import Footer from "../mainPageComponents/Footer.jsx"
+import HeaderForMainPage from "../mainPageComponents/Header.jsx"
+import Sections from "../mainPageComponents/Sections.jsx"
+import VakilSection from "../mainPageComponents/VakilSection.jsx"
+import HomeSvg from "../assets/svg/HomeSvg.js"
+import ProfileSvg from "../assets/svg/ProfileSvg.js"
 import Profiles from "../Home/Profiles.jsx"
 
-export default function Home(){
+export default function HomePage(){
     return(
         <>
          <HeaderForMainPage/>
