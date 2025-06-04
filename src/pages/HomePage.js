@@ -1,22 +1,18 @@
-import Category from "../mainPageComponents/Category"
-import CategorySection from "../mainPageComponents/CategorySection"
-import Footer from "../mainPageComponents/Footer"
-import HeaderForMainPage from "../mainPageComponents/Header"
-import Profile from "../mainPageComponents/Profile"
-import Sections from "../mainPageComponents/Sections"
-import VakilSection from "../mainPageComponents/VakilSection"
-import HomeSvg from "../assets/svg/HomeSvg"
-import ProfileSvg from "../assets/svg/ProfileSvg"
+import Category from "../mainPageComponents/Category.jsx"
+import CategorySection from "../mainPageComponents/CategorySection.jsx"
+import Footer from "../mainPageComponents/Footer.jsx"
+import HeaderForMainPage from "../mainPageComponents/Header.jsx"
+import Sections from "../mainPageComponents/Sections.jsx"
+import VakilSection from "../mainPageComponents/VakilSection.jsx"
+import HomeSvg from "../assets/svg/HomeSvg.js"
+import ProfileSvg from "../assets/svg/ProfileSvg.js"
+import Profiles from "../Home/Profiles.jsx"
 
-
-
-export default function Home(){
+export default function HomePage(){
     return(
         <>
-        <HeaderForMainPage/>
-        <div className="flex justify-center my-3"> 
-             <Profile />
-        </div>
+         <HeaderForMainPage/>
+        <Profiles/>
         <div className="grid grid-cols-2 gap-4 p-4">
             <Sections imageSrc="/Group 12.svg" text="مشاوره تلفنی" />
             <Sections imageSrc="/Group 11.svg" text=" مشاوره متنی" />
@@ -36,7 +32,6 @@ export default function Home(){
                         <Footer  imageSrc={<img src="/Icon (1).svg" alt="icon"/>} text="مشاوره تلفنی" className=" mx-auto" />
                         <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
          </div>
-
 
         </>
     )
