@@ -1,7 +1,7 @@
 import './App.css';
-import Home from './pages/Home';
+// import HomePage from './pages/HomePage';
 // import MainPage from "./pages/MainPage";
-
+import FilterPage from './pages/FilterPage';
 
 function App() {
     return (
@@ -9,7 +9,8 @@ function App() {
             {/*<LoginPage />*/}
            {/* <VerifyPage/>*/}
            {/* <MainPage/> */}
-           <Home/>
+           {/* <HomePage/> */}
+           <FilterPage/>
 
 
         </div>

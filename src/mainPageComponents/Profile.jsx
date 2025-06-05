@@ -1,11 +1,11 @@
 
 
-export default function Profile(){
+export default function Profile({imageSrc}){
     return(
         <>
           <div className="container-fluid grid-cols-3 flex gap-3 border  p-3 ">
             <div className=" ">
-                <img src="/_Avatar (1).svg" alt="avatar"/>
+                <img src="{imageSrc}" alt="profile"/>
             </div>
             <div className="grid grid-flow-row mx-8">
                 <div className="grid-flow-col text-lg font-bold"> نیما سلیمانی  </div>

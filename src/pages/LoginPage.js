@@ -15,10 +15,16 @@ export default function LoginPage() {
 }
 
 function Body() {
-    return (<><span className=" flex justify-center m-5 font-bold"> <img src="/یکـ%20وکیـل.svg"/> </span>
-            <div className=" flex justify-center mb-6">
-                <img src="/Group%205%20(2).svg"/>
-            </div>
-            <span className=" flex justify-center text-black-500 m-7"> لطفا شماره موبایل خود را وارد کنید. </span></>
+    return (
+    <>
+        <span className=" flex justify-center m-5 font-bold"> 
+            <img src="/یکـ%20وکیـل.svg" alt="یکـ وکیل لوگو"/> </span>
+        <div className=" flex justify-center mb-6">
+           <img src="/Group%205%20(2).svg" alt="Group"/>
+        </div>
+        <span className=" flex justify-center text-black-500 m-7"> 
+             لطفا شماره موبایل خود را وارد کنید. 
+        </span>
+    </>
     )
 }
