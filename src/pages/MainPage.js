@@ -31,7 +31,7 @@ export default function MainPage() {
             </div>
           
              <VakilSection/>
-             <Profile/>
+             <Profile imageSrc="/_Avatar_1.svg"/>
             < div className="flex mt-9 border border-gray-100">
                 <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
                 <Footer  text="مشاوره تلفنی" imgSrc={"/Icon (1).svg" } />
