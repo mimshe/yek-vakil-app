@@ -14,8 +14,8 @@ export default function MainPage() {
             <Header/>
             <div className="grid grid-cols-2 gap-4 p-4">
                 <Section imageSrc="/Group 12.svg" text="مشاوره تلفنی" 
-                onClick={() => navigate('../Home')} />
-                <Link to="../Home" >
+                onClick={() => navigate('/home')} />
+                <Link to="/Home" >
                      <Section imageSrc="/Group 11.svg" text=" مشاوره متنی"/>
                 </Link>
                 <Section imageSrc="/Group 14.svg" text="تنظیم شکایت "/>
@@ -25,7 +25,9 @@ export default function MainPage() {
             <Category/>
             <div className="flex  gap-3">
                 <CategorySection text=" خانواده"/>
-                <CategorySection text=" ملکی"/>
+                <Link to={"/home"}>
+                <CategorySection text=" ملکی" />
+                </Link>
                 <CategorySection text=" مالیات"/>
                 <CategorySection text=" کیفری"/>
             </div>
