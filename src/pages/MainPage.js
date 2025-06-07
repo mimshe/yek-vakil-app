@@ -7,6 +7,7 @@ import Profile from "../mainPageComponents/Profile.jsx";
 import BottomNavigation from "../components/bottom-navigation/BottomNavigation";
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+
 export default function MainPage() {
     const navigate = useNavigate();
     return (
