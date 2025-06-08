@@ -1,5 +1,6 @@
 import './App.css';
-import HomePage from './pages/HomePage';
+import Filter2page from './pages/Filter2Page';
+// import HomePage from './pages/HomePage';
 // import MainPage from "./pages/MainPage";
 // import FilterPage from './pages/FilterPage';
 
@@ -9,8 +10,9 @@ function App() {
             {/*<LoginPage />*/}
            {/* <VerifyPage/>*/}
            {/* <MainPage/> */}
-           <HomePage/>
+           {/* <HomePage/> */}
            {/* <FilterPage/> */}
+           <Filter2page/>
 
 
         </div>
