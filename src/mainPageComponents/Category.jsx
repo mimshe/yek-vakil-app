@@ -10,10 +10,6 @@ export default function Category (){
                      <p className="mr-2"> مشاهده همه </p>
                 </div>
             </div>
-        
-        
         </>
-    )
-        
-    
+    )  
 }

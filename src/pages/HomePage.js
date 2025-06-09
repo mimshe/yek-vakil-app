@@ -12,21 +12,29 @@ export default function HomePage(){
          <HeaderForMainPage/>
         <Profiles/>
         <div className="grid grid-cols-2 gap-4 p-4">
-            <Sections imageSrc="/Group 12.svg" text="مشاوره تلفنی" />
-            <Sections imageSrc="/Group 11.svg" text=" مشاوره متنی" />
-            <Sections imageSrc="/Group 14.svg" text="تنظیم شکایت " />
-            <Sections imageSrc="/Group 13.svg" text="تنظیم قرارداد  " />
+            <Sections imageSrc="/phone.svg" text="مشاوره تلفنی"/>
+            <Sections imageSrc="/message.svg" text=" مشاوره متنی"/>
+            <Sections imageSrc="/complaint.svg" text="تنظیم شکایت "/>
+            <Sections imageSrc="/contract.svg" text="تنظیم قرارداد "/>
         </div>
         <Category/>
         <div className="flex  gap-3">
-                        <CategorySection  text=" خانواده"  />
-                        <CategorySection  text=" ملکی"  />
-                        <CategorySection  text=" مالیات"  />
-                        <CategorySection  text=" کیفری"  />
+                        <CategorySection  text=" خانواده"/>
+                        <CategorySection  text=" ملکی"/>
+                        <CategorySection  text=" مالیات"/>
+                        <CategorySection  text=" کیفری"/>
                     </div>
         <VakilSection/>
+<<<<<<< HEAD
         <BottomNavigation/>
 
+=======
+         <div className="flex mt-9 border border-gray-100">
+                        <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
+                        <Footer  imageSrc={<img src="/icon.svg" alt="icon"/>} text="مشاوره تلفنی" className=" mx-auto"/>
+                        <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
+         </div>
+>>>>>>> div
         </>
     )
 }
