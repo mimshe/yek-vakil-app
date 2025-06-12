@@ -15,7 +15,7 @@ export default function Profile({imageSrc}){
             </div>
             <div className="flex">
                 <div className="grid grid-flow-row">
-                <div className="grid-flow-col flex"> <spa>  <span className="text-gray-300"> (۲۳۰) </span> ۴.۷</spa> <img src="/star.svg" alt="star" className="w-[16px] h-[16px]"/>   </div>
+                <div className="grid-flow-col flex"> <span>  <span className="text-gray-300"> (۲۳۰) </span> ۴.۷</span> <img src="/star.svg" alt="star" className="w-[16px] h-[16px]"/>   </div>
                 <div className="grid-flow-col text-start text-gray-500">  ۱۰۰,۰۰۰ تومان  </div>
             </div>
             </div> 

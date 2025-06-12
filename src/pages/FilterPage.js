@@ -9,11 +9,11 @@ export default function FilterPage(){
         <Navbar/>
         <Buttons/>
         <div className="my-2">
-            <Profile  />
-            <Profile imageSrc="/_Avatar(1).svg" />
-            <Profile imageSrc="/_Avatar(1).svg" />
-            <Profile imageSrc="/_Avatar(1).svg" />
-            <Profile imageSrc="/_Avatar(1).svg" />
+            <Profile />
+            <Profile imageSrc="/_Avatar(1).svg"/>
+            <Profile imageSrc="/_Avatar(1).svg"/>
+            <Profile imageSrc="/_Avatar(1).svg"/>
+            <Profile imageSrc="/_Avatar(1).svg"/>
         </div>
         </>
     )
