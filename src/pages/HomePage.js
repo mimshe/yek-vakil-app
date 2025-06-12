@@ -4,7 +4,8 @@ import HeaderForMainPage from "../mainPageComponents/Header.jsx"
 import Sections from "../mainPageComponents/Sections.jsx"
 import VakilSection from "../mainPageComponents/VakilSection.jsx"
 import Profiles from "../Home/Profiles.jsx"
-import BottomNavigation from "../components/bottom-navigation/BottomNavigation";
+import BottomNavigation from "../components/bottom-navigation/BottomNavigation"; 
+
 
 export default function HomePage(){
     return(
@@ -25,16 +26,9 @@ export default function HomePage(){
                         <CategorySection  text=" کیفری"/>
                     </div>
         <VakilSection/>
-<<<<<<< HEAD
-        <BottomNavigation/>
 
-=======
-         <div className="flex mt-9 border border-gray-100">
-                        <Footer  imageSrc={<HomeSvg/>} text="مشاوره تلفنی"/>
-                        <Footer  imageSrc={<img src="/icon.svg" alt="icon"/>} text="مشاوره تلفنی" className=" mx-auto"/>
-                        <Footer  imageSrc={<ProfileSvg/>} text="مشاوره تلفنی"/>
-         </div>
->>>>>>> div
+        <BottomNavigation/>
+         
         </>
     )
 }
