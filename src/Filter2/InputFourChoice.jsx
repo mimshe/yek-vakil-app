@@ -3,8 +3,8 @@ export default function InputFourChoice(){
     return(
         <>
             <span> نوع وکیل </span>
-            <div className="flex w">
-               <div className=" my-4 ml-20 ">
+            <div className="flex border-b">
+               <div className=" my-4 ml-20 mx-5">
                     <label > همه </label>
                     <input type="radio" name="sender"/>
                 </div>
