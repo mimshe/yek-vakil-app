@@ -5,11 +5,8 @@ export default function Profile({imageSrc}){
         <>
           <div className="container-fluid grid-cols-3 flex gap-3 border  p-3 ">
             <div className=" ">
-<<<<<<< HEAD
                 <img src="{imageSrc}" alt="profile"/>
-=======
                 <img src="/avatar.svg" alt="avatar"/>
->>>>>>> div
             </div>
             <div className="grid grid-flow-row mx-8">
                 <div className="grid-flow-col text-lg font-bold"> نیما سلیمانی  </div>
