@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 export default function Section(){
     return(
         <>
@@ -8,7 +8,7 @@ export default function Section(){
                     <p className="bg-info "> استان</p>  
                 </section>
                 <div className="flex my-2">
-                     <span className="mx-2"> کل ایران</span> 
+                     <Link to={"filter"} className="mx-2"> کل ایران</Link> 
                      <img src="/alt-arrow-left.svg" alt="alt-arrow-left"/>
                 </div>
            </div>
